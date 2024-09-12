@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Epidemic Evasion</title>
+    <link rel="icon" type="image/x-icon" href="./img/icone-site..ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> <!-- Bootstrap -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo-site.png" alt="Epidemic Evasion Logo" style="width: 75px;height: 75px;"> <!-- Adicionar logo aqui -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre o Jogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#timeline">Linha do Tempo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#transitions">Transições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="intro">
+    <h2>Sobre o Jogo</h2>
+    <p>Epidemic Evasion é um jogo imersivo e educativo que transporta os jogadores por várias épocas históricas, cada uma marcada por desafios únicos relacionados à saúde e à medicina. Através de uma experiência interativa em primeira pessoa, o jogador é desafiado a enfrentar algumas das maiores pandemias da história, enquanto explora a evolução das práticas médicas e a maneira como a humanidade respondeu a essas crises.</p>
+    <p>A jornada começa na Grécia Antiga e avança até o mundo contemporâneo, passando por momentos cruciais da história da medicina. Os jogadores não apenas vivenciam os desafios de cada era, mas também participam ativamente nas soluções e no progresso médico que moldou o mundo moderno.</p>
+  </div>
+  <div class="container" id="timeline">
+    <div class="timeline">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          
+          <!-- Grécia Antiga -->
+          <div class="swiper-slide" style="background-image: url(./img/grecia-antiga.png)" data-year="400 a.C.">
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Grécia Antiga</span>
+              <h4 class="timeline-title">Varíola (400 a.C.)</h4>
+              <p class="timeline-text">
+                A Grécia Antiga é o berço da medicina ocidental, onde Hipócrates desafiou as crenças de que as doenças eram castigos divinos. Ele propôs causas naturais para as doenças e introduziu o conceito de equilíbrio dos humores corporais. 
+                O jogador participa de rituais de cura nos templos de Asclépio, aprendendo a equilibrar práticas religiosas com os princípios da medicina racional emergente.
+              </p>
+            </div>
+          </div>
+  
+          <!-- Idade Média -->
+          <div class="swiper-slide" style="background-image: url(./img/idade-media-fundo.png)" data-year="Século XIV">
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Idade Média</span>
+              <h4 class="timeline-title">Peste Negra (Século XIV)</h4>
+              <p class="timeline-text">
+                A Peste Negra devastou a Europa, matando milhões de pessoas. Os jogadores assumem o papel de médicos da peste, lidando com o medo, a superstição e os limitados métodos de cura da época. 
+                Sangrias, talismãs e quarentenas são algumas das ferramentas disponíveis enquanto os jogadores lutam para conter a epidemia.
+              </p>
+            </div>
+          </div>
+  
+          <!-- Renascimento -->
+          <div class="swiper-slide" style="background-image: url(./img/renascimento.png)" data-year="Século XVI">
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Renascimento</span>
+              <h4 class="timeline-title">Sífilis (Século XVI)</h4>
+              <p class="timeline-text">
+                O Renascimento trouxe avanços no conhecimento anatômico e químico. Os jogadores experimentam tratamentos para sífilis, participando dos primeiros experimentos de química medicinal, enquanto exploram as contribuições de figuras como Paracelso e Vesalius.
+              </p>
+            </div>
+          </div>
+  
+          <!-- Era Moderna -->
+          <div class="swiper-slide" style="background-image: url(./img/eramoderna.png)" data-year="Século XIX">
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Era Moderna</span>
+              <h4 class="timeline-title">Tuberculose (Século XIX)</h4>
+              <p class="timeline-text">
+                O século XIX foi uma era de descobertas bacteriológicas. Os jogadores ajudam na identificação de microrganismos e na criação de vacinas. A medicina preventiva e a higiene pessoal tornam-se cruciais para conter doenças como a tuberculose.
+              </p>
+            </div>
+          </div>
+  
+          <!-- Século XX -->
+          <div class="swiper-slide" style="background-image: url(./img/Seculo-xx.png)" data-year="Século XX">
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Século XX</span>
+              <h4 class="timeline-title">Influenza (1918)</h4>
+              <p class="timeline-text">
+                A pandemia de Gripe Espanhola devastou o mundo logo após a Primeira Guerra Mundial. O jogador assume o papel de um médico de campanha, lutando contra a escassez de recursos, implementando quarentenas e distribuindo vacinas para conter a pandemia.
+              </p>
+            </div>
+          </div>
+  
+          <!-- Mundo Contemporâneo -->
+          <div class="swiper-slide" style="background-image: url(./img/covid19-fundo.png)" data-year="Século XXI">
+            <div class="swiper-slide-content">
+              <span class="timeline-year">Mundo Contemporâneo</span>
+              <h4 class="timeline-title">HIV/AIDS, Ébola, Zika e COVID-19</h4>
+              <p class="timeline-text">
+                O mundo moderno enfrenta novas pandemias, como HIV/AIDS, Ébola e COVID-19. O jogador deve navegar pelos desafios globais da saúde, utilizando vacinas, antivirais e campanhas de conscientização pública para gerenciar crises médicas.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="transitions-section" class="transitions-section">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="transition-content">
+          <h2>Transições de Períodos Históricos</h2>
+          <p>Após cada era, o jogador experimenta a "Transição Fios do Destino", uma sequência mística onde ele é envolvido por uma energia dourada que o conecta à história e à evolução da humanidade. Guiado por oráculos, ele testemunha a transformação do conhecimento médico através dos séculos.</p>
+          <p>A transição visualiza a jornada do jogador através de portais temporais, onde ele presencia eventos passados e futuros, enquanto avança para a próxima era. Cada transição é única e simboliza o progresso da ciência médica ao longo do tempo.</p>
+          <p>Desde os templos da Grécia Antiga até as salas de emergência dos hospitais modernos, essas transições reforçam a ideia de continuidade e progresso do conhecimento humano, conectando o passado ao presente e ao futuro.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="./img/transicoes.gif" alt="Transição Fios do Destino" class="transition-image">
+      </div>
+    </div>
+  </div>
+  <div class="conclusion-section">
+    <div class="conclusion-content">
+      <h2>Conclusão</h2>
+      <p>Epidemic Evasion não é apenas um jogo, é uma jornada profunda e educacional pela história da medicina e das pandemias que moldaram a humanidade. Cada era apresenta seus próprios desafios e inovações, enquanto as transições entre as épocas reforçam a ideia de que o conhecimento é um fio contínuo que conecta gerações. Combinando jogabilidade envolvente, narrativa histórica e gráficos imersivos, Epidemic Evasion educa e entretém, mostrando como a humanidade enfrentou e superou suas crises de saúde mais devastadoras.</p>
+      <a href="roteiro-bloqueado.html" class="btn-explore-more">Roteiro (Em Andamento)</a>
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script><script  src="./script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
